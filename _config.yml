@@ -65,11 +65,11 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Calender # Title for the section
     layout: list # Type of content section (list/text)
-    content: 캘린더에 대한 정리
+    content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Calender
+        title: 캘린더 로직 설계
         link: https://github.com/yjs0203/calender_app
         link_text: https://github.com/yjs0203/calender_app
         additional_links:
