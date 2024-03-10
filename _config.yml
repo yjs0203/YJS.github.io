@@ -63,26 +63,20 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: 프로젝트 제작 # Title for the section
+  - title: Project # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Calender
+        caption: 2024. 03
         link: https://github.com/yjs0203/calender_app
         link_text: https://github.com/yjs0203/calender_app
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
 
         description: | # this will include new lines to allow paragraphs
-          캘린더 로직 설계
+          - 캘린더 로직 제작
   - title: Experience
     layout: list
     content:
