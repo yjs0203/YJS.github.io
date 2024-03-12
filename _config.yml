@@ -16,7 +16,7 @@ website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 
 
@@ -71,7 +71,8 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Calender
         caption: 2024. 03
-        link: [사이트로 이동](https://github.com/yjs0203/calender-app?tab=readme-ov-file)
+        link: https://github.com/yjs0203/calender-app
+        link_text: https://github.com/yjs0203/calender-app
         quote: >
 
         description: | # this will include new lines to allow paragraphs
