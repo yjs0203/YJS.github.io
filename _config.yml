@@ -71,12 +71,12 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Calender
         caption: 2024. 03
-        link: https://github.com/yjs0203/calender_app
-        link_text: https://github.com/yjs0203/calender_app
+        link: [사이트로 이동](https://github.com/yjs0203/calender-app?tab=readme-ov-file)
         quote: >
 
         description: | # this will include new lines to allow paragraphs
           - 캘린더 로직 제작
+
     content1:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any
