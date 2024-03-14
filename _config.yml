@@ -64,8 +64,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-        # other value (or no value) means no border will be displayed
         title: Calender
         caption: 2024. 03
         link: https://github.com/yjs0203/calender-app
@@ -75,10 +73,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 캘린더 로직 제작
 
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Calender
+      - title: Calender
         caption: 2024. 03
         link: https://github.com/yjs0203/calender-app
         link_text: https://github.com/yjs0203/calender-app
