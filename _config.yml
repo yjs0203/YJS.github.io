@@ -9,11 +9,8 @@ version: 2
 name: 유주상
 title: Backend-Engineer
 email: yeah0203@naver.com
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+#phone: Your phone number (optional)
+#website: Your website (eg. https://google.com)(optional)
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -21,19 +18,19 @@ darkmode: true
 
 
 # Social links
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#linkedin_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -67,6 +64,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Calender
+        caption: 2024. 03
+        link: https://github.com/yjs0203/calender-app
+        link_text: https://github.com/yjs0203/calender-app
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          - 캘린더 로직 제작
+
+      - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Calender
@@ -78,18 +87,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 캘린더 로직 제작
 
-    content1:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-        # other value (or no value) means no border will be displayed
-        title: Calender
-        caption: 2024. 03
-        link: https://github.com/yjs0203/calender_app
-        link_text: https://github.com/yjs0203/calender_app
-        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          - 캘린더 로직 제작
   - title: Experience
     layout: list
     content:
